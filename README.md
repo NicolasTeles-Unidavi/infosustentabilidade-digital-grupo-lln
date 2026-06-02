@@ -63,7 +63,7 @@ Com base na análise dos problemas encontrados, o projeto sugere possíveis solu
 ---
 
 ## 🔗 Link da planilha e do Supabase
-- 📊 Planilha: _[INSERIR LINK AQUI]_
+- 📊 Planilha: _[https://docs.google.com/spreadsheets/d/1LDoGiHUGPBlJCmjJ7r-jxHHGUXi-agJgPWqeREAMNI4/edit?usp=sharing]_
 - 🗄️ Supabase: _[INSERIR LINK AQUI]_
 
 ---
