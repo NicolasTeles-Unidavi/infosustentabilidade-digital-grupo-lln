@@ -1,126 +1,163 @@
-{
-  "projeto": "InfoSustentabilidade Digital",
-  "cidade_base": "Rio do Sul",
-  "pontos_coleta": [
-    {
-      "id_ponto": 1,
-      "nome_local": "Prefeitura Municipal de Trombudo Central",
-      "endereco": "Praça Arthur Siewerdt, 01",
-      "bairro": "Centro",
-      "cidade": "Trombudo Central/SC",
-      "contato": "(47) 3544-0271",
-      "materiais_aceitos": [
-        "pilha",
-        "bateria"
-      ],
-      "procedimento": {
-        "precisa_agendamento": false,
-        "possui_custo": false,
-        "modalidade": "entrega"
+[
+  {
+    "projeto": "InfoSustentabilidade Digital",
+    "cidade_base": "Agronômica",
+    "pontos_coleta": [
+      {
+        "id_ponto": 5,
+        "nome_local": "Departamento de Planejamento",
+        "endereco": "Rua 7 de Setembro, 215",
+        "bairro": "Centro",
+        "cidade": "Agronômica",
+        "contato": "(47) 3542-0166",
+        "materiais_aceitos": [
+          "pilha",
+          "bateria",
+          "hardware"
+        ],
+        "evidencias": [
+          {
+            "tipo": "site",
+            "arquivo": "https://agronomica.sc.gov.br/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "projeto": "InfoSustentabilidade Digital",
+    "cidade_base": "Ituporanga",
+    "pontos_coleta": [
+      {
+        "id_ponto": 6,
+        "nome_local": "Coletron Metais",
+        "endereco": "Rua Vereador Orlando Luckmann, 311",
+        "bairro": "Cerro Negro",
+        "cidade": "Ituporanga",
+        "contato": "(47) 99267-7263",
+        "materiais_aceitos": [
+          "placas eletronicas",
+          "fios e metais"
+        ],
+        "evidencias": [
+          {
+            "tipo": "site",
+            "arquivo": "https://www.facebook.com/coletron.metais/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "projeto": "InfoSustentabilidade Digital",
+    "cidade_base": "Laurentino",
+    "pontos_coleta": [
+      {
+        "id_ponto": 3,
+        "nome_local": "Casa da Cidadania",
+        "endereco": "Rua Paulo Possamai, n. 290",
+        "bairro": "Centro",
+        "cidade": "Laurentino",
+        "contato": "(47) 3546-1743",
+        "materiais_aceitos": [
+          "pilha",
+          "eletrodomesticos",
+          "hardware"
+        ],
+        "evidencias": [
+          {
+            "tipo": "site",
+            "arquivo": "https://laurentino.sc.gov.br/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "projeto": "InfoSustentabilidade Digital",
+    "cidade_base": "Rio do Sul",
+    "pontos_coleta": [
+      {
+        "id_ponto": 4,
+        "nome_local": "Ecoponto",
+        "endereco": "Parque do Farol",
+        "bairro": "Canoas",
+        "cidade": "Rio do Sul",
+        "contato": "(47) 3411-1155",
+        "materiais_aceitos": [
+          "Eletroeletrônicos",
+          "pilhas",
+          "baterias",
+          "lâmpadas"
+        ],
+        "evidencias": [
+          {
+            "tipo": "site",
+            "arquivo": "https://www.riodosul.sc.gov.br/"
+          }
+        ]
       },
-      "evidencias": [
-        {
-          "tipo": "site",
-          "arquivo": "https://www.trombudocentral.sc.gov.br/"
-        }
-      ]
-    },
-    {
-      "id_ponto": 2,
-      "nome_local": "CCC Reciclagem e Terraplenagem Ltda",
-      "endereco": "Comunidade Km 05, s/n",
-      "bairro": "Comunidade Km 05",
-      "cidade": "Trombudo Central/SC",
-      "contato": "(47) 9705-6497",
-      "materiais_aceitos": [
-        "Placas eletronicas",
-        "TV",
-        "celulares"
-      ],
-      "procedimento": {
-        "precisa_agendamento": false,
-        "possui_custo": false,
-        "modalidade": "entrega"
+      {
+        "id_ponto": 7,
+        "nome_local": "Megatron Recicle de Eletrônicos RS",
+        "endereco": "Rua Massaranduba, 110",
+        "bairro": "Canta Galo",
+        "cidade": "Rio do Sul",
+        "contato": "(47) 99629-0910",
+        "materiais_aceitos": [
+          "TV",
+          "celulares"
+        ],
+        "evidencias": [
+          {
+            "tipo": "site",
+            "arquivo": "https://www.facebook.com/p/Megatron-Reciclagem-de-Eletr%C3%B4nicos-100063938468148/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "projeto": "InfoSustentabilidade Digital",
+    "cidade_base": "Trombudo Central",
+    "pontos_coleta": [
+      {
+        "id_ponto": 1,
+        "nome_local": "Prefeitura Municipal de Trombudo Central",
+        "endereco": "Praça Arthur Siewerdt, 01",
+        "bairro": "Centro",
+        "cidade": "Trombudo Central/SC",
+        "contato": "(47) 3544-0271",
+        "materiais_aceitos": [
+          "pilha",
+          "bateria"
+        ],
+        "evidencias": [
+          {
+            "tipo": "site",
+            "arquivo": "https://www.trombudocentral.sc.gov.br/"
+          }
+        ]
       },
-      "evidencias": [
-        {
-          "tipo": "site",
-          "arquivo": "https://www.portaleducadora.com/noticia/prefeitura-de-trombudo-central-promove-coleta-de-residuos-especiais-e-reforca-acoes-ambientais/"
-        }
-      ]
-    },
-    {
-      "id_ponto": 3,
-      "nome_local": "Casa da Cidadania",
-      "endereco": "Rua Paulo Possamai, n. 290",
-      "bairro": "Centro",
-      "cidade": "Laurentino",
-      "contato": "(47) 3546-1743",
-      "materiais_aceitos": [
-        "pilha",
-        "eletrodomesticos",
-        "hardware"
-      ],
-      "procedimento": {
-        "precisa_agendamento": false,
-        "possui_custo": false,
-        "modalidade": "entrega"
-      },
-      "evidencias": [
-        {
-          "tipo": "site",
-          "arquivo": "https://laurentino.sc.gov.br/"
-        }
-      ]
-    },
-    {
-      "id_ponto": 4,
-      "nome_local": "Ecoponto",
-      "endereco": "Parque do Farol",
-      "bairro": "Canoas",
-      "cidade": "Rio do Sul",
-      "contato": "(47) 3411-1155",
-      "materiais_aceitos": [
-        "Eletroeletrônicos",
-        "pilhas",
-        "baterias",
-        "lâmpadas"
-      ],
-      "procedimento": {
-        "precisa_agendamento": false,
-        "possui_custo": false,
-        "modalidade": "entrega"
-      },
-      "evidencias": [
-        {
-          "tipo": "site",
-          "arquivo": "https://www.riodosul.sc.gov.br/"
-        }
-      ]
-    },
-    {
-      "id_ponto": 5,
-      "nome_local": "Departamento de Planejamento",
-      "endereco": "Rua 7 de Setembro, 215",
-      "bairro": "Centro",
-      "cidade": "Agronômica",
-      "contato": "(47) 3542-0166",
-      "materiais_aceitos": [
-        "pilha",
-        "bateria",
-        "hardware"
-      ],
-      "procedimento": {
-        "precisa_agendamento": false,
-        "possui_custo": false,
-        "modalidade": "entrega"
-      },
-      "evidencias": [
-        {
-          "tipo": "site",
-          "arquivo": "https://agronomica.sc.gov.br/"
-        }
-      ]
-    }
-  ]
-}
+      {
+        "id_ponto": 2,
+        "nome_local": "CCC Reciclagem e Terraplenagem Ltda",
+        "endereco": "Comunidade Km 05, s/n",
+        "bairro": "Comunidade Km 05",
+        "cidade": "Trombudo Central/SC",
+        "contato": "(47) 9705-6497",
+        "materiais_aceitos": [
+          "Placas eletronicas",
+          "TV",
+          "celulares"
+        ],
+        "evidencias": [
+          {
+            "tipo": "site",
+            "arquivo": "https://www.portaleducadora.com/noticia/prefeitura-de-trombudo-central-promove-coleta-de-residuos-especiais-e-reforca-acoes-ambientais/"
+          }
+        ]
+      }
+    ]
+  }
+]
