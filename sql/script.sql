@@ -16,7 +16,7 @@ CREATE TABLE materiais_aceitos (
     tipo_material VARCHAR(100),
     aceita CHAR(1),
     observacao VARCHAR(255),
-    FOREIGN KEY (id_ponto) REFERENCES pontos_coleta(id_ponto) ON DELETE CASCADE
+    FOREIGN KEY (id_ponto) REFERENCES pontos_coleta(id_ponto) 
 );
 
 -- Criação da Tabela de Procedimentos
@@ -27,7 +27,7 @@ CREATE TABLE procedimentos_descarte (
     agendamento CHAR(1),
     custo DECIMAL(10,2),
     modalidade VARCHAR(100),
-    FOREIGN KEY (id_ponto) REFERENCES pontos_coleta(id_ponto) ON DELETE CASCADE
+    FOREIGN KEY (id_ponto) REFERENCES pontos_coleta(id_ponto) 
 );
 
 -- Criação da Tabela de Evidências
@@ -38,7 +38,7 @@ CREATE TABLE evidencias (
     descricao VARCHAR(255),
     arquivo_link VARCHAR(500),
     data DATE,
-    FOREIGN KEY (id_ponto) REFERENCES pontos_coleta(id_ponto) ON DELETE CASCADE
+    FOREIGN KEY (id_ponto) REFERENCES pontos_coleta(id_ponto)
 );
 
 -- Criação da Tabela de Análise Crítica
